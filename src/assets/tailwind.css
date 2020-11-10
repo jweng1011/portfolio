@@ -1,0 +1,7 @@
+@tailwind base;
+h3 {
+    font-size = 50px;
+}
+@tailwind components;
+
+@tailwind utilities;
