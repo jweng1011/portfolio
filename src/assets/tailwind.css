@@ -4,7 +4,7 @@
 
 @layer base {
     h1 {
-        @apply text-3xl font-extrabold text-gray-800;
+        @apply text-4xl font-extrabold text-gray-800;
     }
     
     h2 {
@@ -18,9 +18,21 @@
     h4 {
         @apply text-lg font-bold text-gray-800;
     }
+
+    h5 {
+        @apply text-base font-bold text-gray-800;
+    }
+
+    h6 {
+        @apply font-mono text-base font-bold text-gray-600;
+    }
     
     p {
-        @apply text-sm text-gray-800;
+        @apply text-base leading-7 text-gray-800;
+    }
+
+    li {
+        @apply text-gray-800;
     }
 
     @font-face {

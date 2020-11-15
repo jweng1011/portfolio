@@ -1,12 +1,12 @@
 import React from 'react';
-import {CaseStudy} from "../caseStudy/CaseStudy";
+import {CaseStudyButton} from "../caseStudyButton/CaseStudyButton";
 
 export function CaseStudyList({caseStudies}) {
     return (
         <div className={`max-w-2xl m-auto space-y-6`}>
             {caseStudies.map((caseStudy) => {
                 return (
-                    <CaseStudy {...caseStudy} />
+                    <CaseStudyButton {...caseStudy} />
                 )
             })}
         </div>

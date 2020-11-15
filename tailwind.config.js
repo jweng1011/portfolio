@@ -7,9 +7,6 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
-      textColor: {
-        'primary': '#f44e5c',
-      },
     },
   },
   variants: {},
