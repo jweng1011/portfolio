@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.034b5cb6.chunk.css",
+    "main.css": "/static/css/main.024cc29e.chunk.css",
     "main.js": "/static/js/main.fbb76cde.chunk.js",
     "main.js.map": "/static/js/main.fbb76cde.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0a655310.js",
@@ -10,9 +10,10 @@
     "static/js/3.71742a09.chunk.js": "/static/js/3.71742a09.chunk.js",
     "static/js/3.71742a09.chunk.js.map": "/static/js/3.71742a09.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.034b5cb6.chunk.css.map": "/static/css/main.034b5cb6.chunk.css.map",
+    "static/css/main.024cc29e.chunk.css.map": "/static/css/main.024cc29e.chunk.css.map",
     "static/js/2.5f166dd1.chunk.js.LICENSE.txt": "/static/js/2.5f166dd1.chunk.js.LICENSE.txt",
     "static/media/Disabling.5a14cdd6.mov": "/static/media/Disabling.5a14cdd6.mov",
+    "static/media/main.css": "/static/media/PTSans-Regular.334e1813.ttf",
     "static/media/color.ac5ba0ae.png": "/static/media/color.ac5ba0ae.png",
     "static/media/consistencyFlow.233c3884.gif": "/static/media/consistencyFlow.233c3884.gif",
     "static/media/dashboard.5f26e941.mov": "/static/media/dashboard.5f26e941.mov",
@@ -36,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.0a655310.js",
     "static/js/2.5f166dd1.chunk.js",
-    "static/css/main.034b5cb6.chunk.css",
+    "static/css/main.024cc29e.chunk.css",
     "static/js/main.fbb76cde.chunk.js"
   ]
 }
