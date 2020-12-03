@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.034b5cb6.chunk.css",
+    "main.js": "/static/js/main.e1b0dc76.chunk.js",
+    "main.js.map": "/static/js/main.e1b0dc76.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0a655310.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0a655310.js.map",
+    "static/js/2.3ff95359.chunk.js": "/static/js/2.3ff95359.chunk.js",
+    "static/js/2.3ff95359.chunk.js.map": "/static/js/2.3ff95359.chunk.js.map",
+    "static/js/3.71742a09.chunk.js": "/static/js/3.71742a09.chunk.js",
+    "static/js/3.71742a09.chunk.js.map": "/static/js/3.71742a09.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.034b5cb6.chunk.css.map": "/static/css/main.034b5cb6.chunk.css.map",
+    "static/js/2.3ff95359.chunk.js.LICENSE.txt": "/static/js/2.3ff95359.chunk.js.LICENSE.txt",
+    "static/media/Disabling.5a14cdd6.mov": "/static/media/Disabling.5a14cdd6.mov",
+    "static/media/color.ac5ba0ae.png": "/static/media/color.ac5ba0ae.png",
+    "static/media/consistencyFlow.233c3884.gif": "/static/media/consistencyFlow.233c3884.gif",
+    "static/media/dashboard.5f26e941.mov": "/static/media/dashboard.5f26e941.mov",
+    "static/media/flow.5766068d.jpg": "/static/media/flow.5766068d.jpg",
+    "static/media/hero.6d2a9b49.gif": "/static/media/hero.6d2a9b49.gif",
+    "static/media/hero.a69b7982.png": "/static/media/hero.a69b7982.png",
+    "static/media/illustration1.11099230.png": "/static/media/illustration1.11099230.png",
+    "static/media/illustration2.13253012.png": "/static/media/illustration2.13253012.png",
+    "static/media/logic.49833236.jpg": "/static/media/logic.49833236.jpg",
+    "static/media/logo.17eac968.png": "/static/media/logo.17eac968.png",
+    "static/media/navigation.7adae27b.png": "/static/media/navigation.7adae27b.png",
+    "static/media/onboarding.9c1e0764.mov": "/static/media/onboarding.9c1e0764.mov",
+    "static/media/scenario.a4cd8a79.gif": "/static/media/scenario.a4cd8a79.gif",
+    "static/media/scenarioBefore@2x.066c14a5.png": "/static/media/scenarioBefore@2x.066c14a5.png",
+    "static/media/scenarioFlow.b1a64cbd.png": "/static/media/scenarioFlow.b1a64cbd.png",
+    "static/media/scenarioSelection.1b874015.png": "/static/media/scenarioSelection.1b874015.png",
+    "static/media/scenarioSketch.2ee3a25e.png": "/static/media/scenarioSketch.2ee3a25e.png",
+    "static/media/solutionProcess.a7084dec.png": "/static/media/solutionProcess.a7084dec.png",
+    "static/media/v1.03003b0a.mov": "/static/media/v1.03003b0a.mov"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a655310.js",
+    "static/js/2.3ff95359.chunk.js",
+    "static/css/main.034b5cb6.chunk.css",
+    "static/js/main.e1b0dc76.chunk.js"
+  ]
+}
