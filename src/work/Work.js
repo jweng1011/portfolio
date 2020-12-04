@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import {NavBar} from "../ui-components/navBar/NavBar";
 import {CaseStudyList} from "../ui-components/caseStudyList/CaseStudyList";
-import fire from '../images/fire/hero.png';
-import masscosh from '../images/masscosh/hero.gif';
+import fire from '../media/fire/hero.png';
+import masscosh from '../media/masscosh/hero.gif';
 import { SectionLink } from "../ui-components/sectionLink/SectionLink";
 import { Footer } from "../ui-components/footer/Footer";
 
@@ -38,7 +38,7 @@ export function Work() {
                         <h2 className={`font-normal`}>
                             Hey, I'm Jennifer 👋
                         </h2>
-                        <div className={`space-y-1`}>
+                        <div className={`space-y-1 text-left`}>
                             <div>
                                 <SectionLink onMouseEnter={() => setShowModal(true)}
                                                 onMouseLeave={() => setShowModal(false)}

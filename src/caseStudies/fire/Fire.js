@@ -3,20 +3,19 @@ import { NavBar } from '../../ui-components/navBar/NavBar';
 import { CaseIntro } from "../../ui-components/caseIntro/CaseIntro";
 import { CaseSection } from '../../ui-components/caseSection/CaseSection';
 import { CaseSubsection } from '../../ui-components/caseSubsection/CaseSubsection';
-import { SectionLink } from '../../ui-components/sectionLink/SectionLink';
-import process from '../../images/fire/solutionProcess.png';
-import scenarioSketch from '../../images/fire/scenarioSketch.png';
-import navigation from '../../images/fire/navigation.png';
-import scenarioFlow from '../../images/fire/scenarioFlow.png'
-import scenarioHigh from '../../videos/scenario.gif';
-import scenarioBefore from '../../images/fire/scenarioBefore@2x.png'
-import scenarioSelection from '../../images/fire/scenarioSelection.png';
-import consistencyFlow from '../../images/fire/consistencyFlow.gif';
-import color from '../../images/fire/color.png';
-import fireLogo from '../../images/fire/logo.png';
-import illustration1 from '../../images/fire/illustration1.png';
-import illustration2 from '../../images/fire/illustration2.png';
-import onboarding from '../../images/fire/onboarding.mov';
+import process from '../../media/fire/solutionProcess.png';
+import scenarioSketch from '../../media/fire/scenarioSketch.png';
+import navigation from '../../media/fire/navigation.png';
+import scenarioFlow from '../../media/fire/scenarioFlow.png'
+import scenarioHigh from '../../media/fire/scenario.gif';
+import scenarioBefore from '../../media/fire/scenarioBefore@2x.png'
+import scenarioSelection from '../../media/fire/scenarioSelection.png';
+import consistencyFlow from '../../media/fire/consistencyFlow.gif';
+import color from '../../media/fire/color.png';
+import fireLogo from '../../media/fire/logo.png';
+import illustration1 from '../../media/fire/illustration1.png';
+import illustration2 from '../../media/fire/illustration2.png';
+import onboarding from '../../media/fire/onboarding.mov';
 import { Footer } from '../../ui-components/footer/Footer';
 
 const roleData = {
@@ -36,7 +35,7 @@ const projIntro = {
 const projProblem = {
     eyebrow: "The Problem",
     header: "How do we provide rights information and emergency tools without endangering users during emergency situations?",
-    description: "The app's primary goal is to defend and empower undocumented immigrants, particularly during emergency scenarios with immigration enforcement, making user safety my #1 concern. We needed to understand what tools users need access to in dangerous environments, how the app may impact their behavior, and whether that behavior could endanger the user. Here are the major design challenges I encountered:",
+    description: "The app's primary goal is to defend and empower undocumented immigrants, particularly during emergency scenarios with immigration enforcement, making user safety my #1 concern. We needed to understand what tools users need access to in dangerous environments, how the app may impact their behavior, and whether that behavior could endanger the user. Belowxs are the major design challenges I encountered.",
 }
 
 const projSolution = {
@@ -89,7 +88,7 @@ const solutionsSubsection3 = {
 
 
 export function Fire() {
-    const width = "max-w-md sm:max-w-2xl lg:max-w-4xl m-auto";
+    const width = "max-w-xs md:max-w-2xl lg:max-w-4xl m-auto";
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -102,19 +101,19 @@ export function Fire() {
                 <CaseIntro projDescription={projIntro} roleData={roleData} col={true} priv={false}/>
                 <div className={`flex flex-col space-y-6`}>
                     <CaseSection sectionData={projProblem} />
-                    <div className={`flex flex-col space-y-3`}>
-                        <SectionLink url={"#solution1"}>1. How do we structure large amounts of varying content on mobile devices?</SectionLink>
-                        <SectionLink url={"#solution2"}>2. How do we optimize usability for non-tech savvy users?</SectionLink>
-                        <SectionLink url={"#solution2"}>3. How do we maintain consistency while distinguishing between content?</SectionLink>
-                    </div>
+                    {/* <div className={`flex flex-col w-full md:max-w-2xl md:m-auto space-y-3`}>
+                        <SectionLink url="#solution1">1. How do we structure large amounts of varying content on mobile devices?</SectionLink>
+                        <SectionLink url="#solution2">2. How do we optimize usability for non-tech savvy users?</SectionLink>
+                        <SectionLink url="#solution2">3. How do we maintain consistency while distinguishing between content?</SectionLink>
+                    </div> */}
                 </div>
                 <div className={`flex flex-col space-y-6`}>
                     <CaseSection sectionData={projSolution} />
                     <img src={process} alt="process" />
                 </div>
-                <CaseSubsection id={"solution1"} sectionData={solutionsSubsection1}/>
-                <CaseSubsection id={"solution2"} sectionData={solutionsSubsection2}/>
-                <CaseSubsection id={"solution3"} sectionData={solutionsSubsection3}/>
+                <CaseSubsection id="solution1" sectionData={solutionsSubsection1}/>
+                <CaseSubsection id="solution2" sectionData={solutionsSubsection2}/>
+                <CaseSubsection id="solution3" sectionData={solutionsSubsection3}/>
                 <div>
                 <div className={`w-full md:max-w-2xl md:m-auto space-y-3`}>
                     <h2>Visual Work</h2>

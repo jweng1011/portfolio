@@ -4,14 +4,14 @@ import { CaseRole } from '../caseRole/CaseRole';
 
 export function CaseIntro({projDescription, roleData, col, priv}) {
     const { title, date, titleDescription, vid } = projDescription;
-    const orientation = (col === true) ? 'flex-col md:flex-row' : 'flex-col';
-    const headerWidth = (col === true) ? 'w-full md:w-2/3' : 'w-full';
+    const orientation = (col === true) ? 'flex-col md:flex-row space-x-10' : 'flex-col';
+    const headerWidth = (col === true) ? 'w-full md:w-2/3': 'w-full';
     const vidWidth = (col === true) ? 'w-full md:w-1/3 max-w-xs' : 'w-full';
 
     return (
         <div className={`flex flex-col space-y-20`}>
             <div>
-                <div className={`flex flex-grow ${orientation} space-x-10 space-y-10 items-center`}>
+                <div className={`flex flex-grow space-y-10 ${orientation} items-center`}>
                     <div className={`${headerWidth} space-y-8`}>
                         <div className={`space-y-3`}>
                             <h1>{title}</h1>

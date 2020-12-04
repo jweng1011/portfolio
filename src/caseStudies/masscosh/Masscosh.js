@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { NavBar } from '../../ui-components/navBar/NavBar';
 import { CaseIntro } from '../../ui-components/caseIntro/CaseIntro';
-import dashboard from '../../images/masscosh/dashboard.mov';
+import dashboard from '../../media/masscosh/dashboard.mov';
 import { CaseSection } from '../../ui-components/caseSection/CaseSection';
-import { SectionLink } from '../../ui-components/sectionLink/SectionLink';
-import logic from '../../images/masscosh/logic.jpg';
-import flow from '../../images/masscosh/flow.jpg';
-import v1 from '../../images/masscosh/v1.mov';
-import disabling from '../../images/masscosh/Disabling.mov';
+import logic from '../../media/masscosh/logic.jpg';
+import flow from '../../media/masscosh/flow.jpg';
+import v1 from '../../media/masscosh/v1.mov';
+import disabling from '../../media/masscosh/Disabling.mov';
+import { Footer } from '../../ui-components/footer/Footer';
 
 const projIntro = {
     title: "MassCOSH",
@@ -58,23 +58,23 @@ const solution2 = {
 }
 
 export function MassCOSH() {
-    const width = "max-w-md sm:max-w-2xl lg:max-w-4xl m-auto";
+    const width = "max-w-xs sm:max-w-2xl lg:max-w-4xl m-auto";
 
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])
 
     return (
-        <div className={`pb-20`}>
+        <div>
             <NavBar />
-            <div className={`${width} flex flex-col space-y-24 pt-40`}>
+            <div className={`${width} flex flex-col space-y-24 pt-40 pb-20`}>
                 <CaseIntro projDescription={projIntro} roleData={roleData} col={false} priv={true}/>
                 <div className={`flex flex-col space-y-6`}>
                     <CaseSection sectionData={projProblem} />
-                    <div className={`flex flex-col space-y-3`}>
+                    {/* <div className={`flex flex-col w-full md:max-w-2xl md:m-auto space-y-3`}>
                         <SectionLink url={"#solution1"}>1. Visualization of the intake process and form logic.</SectionLink>
                         <SectionLink url={"#solution2"}>2. Identification of major issues early on by extensive user testing at low fidelity stages.</SectionLink>
-                    </div>
+                    </div> */}
                 </div>
                 <div id={"solution1"} className={`w-full md:max-w-2xl md:m-auto space-y-3`}>
                     <h3>{solution1.header}</h3>
@@ -112,6 +112,7 @@ export function MassCOSH() {
                     <p className={`font-bold`}>{solution2.conclusion}</p>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
