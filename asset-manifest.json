@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.024cc29e.chunk.css",
-    "main.js": "/static/js/main.fbb76cde.chunk.js",
-    "main.js.map": "/static/js/main.fbb76cde.chunk.js.map",
+    "main.css": "/static/css/main.dd78be1d.chunk.css",
+    "main.js": "/static/js/main.96040145.chunk.js",
+    "main.js.map": "/static/js/main.96040145.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0a655310.js",
     "runtime-main.js.map": "/static/js/runtime-main.0a655310.js.map",
     "static/js/2.5f166dd1.chunk.js": "/static/js/2.5f166dd1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.71742a09.chunk.js": "/static/js/3.71742a09.chunk.js",
     "static/js/3.71742a09.chunk.js.map": "/static/js/3.71742a09.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.024cc29e.chunk.css.map": "/static/css/main.024cc29e.chunk.css.map",
+    "static/css/main.dd78be1d.chunk.css.map": "/static/css/main.dd78be1d.chunk.css.map",
     "static/js/2.5f166dd1.chunk.js.LICENSE.txt": "/static/js/2.5f166dd1.chunk.js.LICENSE.txt",
     "static/media/Disabling.5a14cdd6.mov": "/static/media/Disabling.5a14cdd6.mov",
     "static/media/main.css": "/static/media/PTSans-Regular.334e1813.ttf",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.0a655310.js",
     "static/js/2.5f166dd1.chunk.js",
-    "static/css/main.024cc29e.chunk.css",
-    "static/js/main.fbb76cde.chunk.js"
+    "static/css/main.dd78be1d.chunk.css",
+    "static/js/main.96040145.chunk.js"
   ]
 }
