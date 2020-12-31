@@ -26,14 +26,15 @@ export function Work() {
         window.scrollTo(0, 0)
       }, [])
 
-    const [copySuccess, setCopySuccess] = useState(false);
+    const width = "max-w-xs md:max-w-2xl m-auto";
+    // const [copySuccess, setCopySuccess] = useState(false);
     const [showModal, setShowModal] = useState(false);
 
     return (
         <div>
             <NavBar />
             <div className={`pt-40 space-y-20`}>
-                <div className={`flex flex-grow flex-col md:flex-row max-w-xs md:max-w-2xl m-auto space-y-6 md:space-x-6 md:space-y-0`}>
+                <div className={`${width} flex flex-grow flex-col md:flex-row space-y-6 md:space-x-6 md:space-y-0`}>
                     <div className={`w-full md:w-1/3 space-y-4`}>
                         <h2 className={`font-normal`}>
                             Hey, I'm Jennifer 👋
@@ -42,7 +43,7 @@ export function Work() {
                             <div>
                                 <SectionLink onMouseEnter={() => setShowModal(true)}
                                                 onMouseLeave={() => setShowModal(false)}
-                                                onClick={() => navigator.clipboard.writeText('jennifer.weng@tufts.edu') && setCopySuccess(true)}>
+                                                onClick={() => navigator.clipboard.writeText('jennifer.weng@tufts.edu')}>
                                     jennifer.weng@tufts.edu
                                 </SectionLink>
                                 {showModal === true && (

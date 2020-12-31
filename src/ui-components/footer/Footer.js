@@ -1,9 +1,9 @@
-import { React, useState } from 'react';
+import { React } from 'react';
 import { Button } from '../button/Button';
 
 export function Footer() {
-    const [copySuccess, setCopySuccess] = useState(false);
-    const [showModal, setShowModal] = useState(false);
+    // const [copySuccess, setCopySuccess] = useState(false);
+    // const [showModal, setShowModal] = useState(false);
 
     return (
         <div className={`bg-gray-100 pb-20 space-y-3`}>

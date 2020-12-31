@@ -35,7 +35,7 @@ const projIntro = {
 const projProblem = {
     eyebrow: "The Problem",
     header: "How do we provide rights information and emergency tools without endangering users during emergency situations?",
-    description: "The app's primary goal is to defend and empower undocumented immigrants, particularly during emergency scenarios with immigration enforcement, making user safety my #1 concern. We needed to understand what tools users need access to in dangerous environments, how the app may impact their behavior, and whether that behavior could endanger the user. Belowxs are the major design challenges I encountered.",
+    description: "The app's primary goal is to defend and empower undocumented immigrants, particularly during emergency scenarios with immigration enforcement, making user safety my #1 concern. We needed to understand what tools users need access to in dangerous environments, how the app may impact their behavior, and whether that behavior could endanger the user. Below are the major design challenges I encountered.",
 }
 
 const projSolution = {
